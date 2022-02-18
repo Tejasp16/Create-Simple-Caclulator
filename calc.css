@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{background-color:#2f3d2d;
+max-height:auto;
+  max-width:auto;
+   background-size: cover;}
+.calculator {
+	position:absolute;
+	top:200px;
+	left:500px;
+ padding: 20px;
+ border-radius: 1em;
+ height: 380px;
+ width: 400px;
+ margin: auto;
+ background-color: #010301;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.calculator1 {
+	padding:10px;
+  position:absolute;
+  top: 200px;
+  right: 310px;
+  border-radius: 1em;
+  padding:10px 20px;
+   margin: auto;
+  font-size: 30px;
+  height: 380px;
+ width: 280px;
+ max-height:380px;
+ max-width:280px;
+ overflow:hidden;
+ color:white;
+ 
+ 
+ background-color: #010301;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+ font-family: 'Orbitron', sans-serif;
+ background-color: #dcdbe1;
+ border: solid black 0.5px;
+ color: black;
+ border-radius: 5px;
+ width: 100%;
+ height: 65%;
+}
+.button {
+ font-family: 'Orbitron', sans-serif;
+ background-color: #1d211c;
+ color: white;
+ border: solid black 0.5px;
+ width: 100%;
+ border-radius: 5px;
+ height: 70%;
+ outline: none;
+}
+.button:hover{
+            background: #ff96ad;
+            box-shadow: 0 0 5px #ff96ad,0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+        }
+.button:active {
+ background: #e5e5e5;
+ -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+ box-shadow: inset 0px 0px 5px #c1c1c1;
+}/*
+#history{
+    width: 240px;
+    height: 372px;
+    overflow-y: scroll;
+    font-size: 1.1cm;
+   background:red;
+    box-sizing: broder-box;
+    padding: 10px 20px;
+}
+    
+#history::-webkit-scrollbar{
+    width: 0;
+}
+
+#history h3{
+    padding:10px 0px;
+    font-size: 12px;
+}
+
+#history p: last-child{
+    font-size:15px;
+    font-weight:500;
+    color:red;
+}*/
+
+.button1{
+ font-family: 'Orbitron', sans-serif;
+ background-color: grey;
+ color: black;
+ border-radius: 5px;
+ width: 100px;
+ height:50px;
+ padding:10px;
+ outline: none;
+ position: absolute;
+  bottom: 8px;
+  right: 100px;
+}
